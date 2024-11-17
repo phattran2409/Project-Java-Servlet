@@ -1,0 +1,74 @@
+html {
+    font-family: "Poppins";
+}
+
+.container-fluid {}
+
+#content-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 500px;
+    height: auto;
+    padding: 20px;
+}
+
+.backLogin p a {
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 1rem;
+
+}
+
+.backLogin>p>a:hover {
+    text-transform: 0 0 0 #333;
+}
+
+.title h1 {
+
+    font-weight: 900;
+    font-size: 4rem;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.form-label {
+    font-weight: 500;
+    font-family: "Poppins";
+    font-size: 1rem;
+    margin-bottom: 1em;
+}
+
+#input-icons {
+    cursor: pointer;
+    position: relative;
+
+}
+
+.fa-eye-showPass {
+    position: absolute;
+    right: 20px;
+    top: 65%;
+}
+
+.button-login {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: capitalize;
+    box-shadow: 5px 5px 10px #3333337f;
+    transition: all .5s ease-in;
+}
+
+.button-login:hover {
+    transform: translateY(-10px);
+
+}
+
+.text-register {
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: "Poppins";
+}
